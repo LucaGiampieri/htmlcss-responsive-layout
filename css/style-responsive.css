@@ -30,22 +30,8 @@
         flex-basis: 30%;
     }
 
-    .btn {
-        padding: 10px 40px;
-    }
-
     .ads {
         display: block;
-    }
-
-    .clearfix img {
-        float: left;
-    }
-
-    .clearfix::after {
-        content: "";
-        display: table;
-        clear: both;
     }
 
 }
@@ -91,8 +77,27 @@
         align-items: center;
     }
 
-    footer address{
+    footer address {
         text-align: left;
+    }
+
+}
+
+
+@media screen and (min-width:576px) {
+
+    .clearfix img {
+        float: left;
+    }
+
+    .clearfix::after {
+        content: "";
+        display: table;
+        clear: both;
+    }
+
+    .btn {
+        padding: 10px 40px;
     }
 
 }
