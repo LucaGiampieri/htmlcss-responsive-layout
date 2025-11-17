@@ -1,2 +1,51 @@
 /* Soluzione qui */
 
+/* Tablet */
+
+@media screen and (min-width:768px) {
+
+    .container {
+        width: 90%;
+    }
+
+    #topbar {
+        justify-content: flex-start;
+    }
+
+    .recipe-title h2 {
+        font-size: 2rem;
+    }
+
+    .recipe-origin {
+        display: inline;
+        font-family: 'Nerko One', cursive;
+    }
+
+    .quick-notes ul {
+        display: flex;
+        flex-wrap: wrap;
+    }
+
+    .quick-notes li {
+        flex-basis: 30%;
+    }
+
+    .social-networks .label {
+        display: inline;
+    }
+
+    .ads {
+        display: block;
+    }
+
+    .clearfix img {
+        float: left;
+    }
+
+    .clearfix::after {
+        content: "";
+        display: table;
+        clear: both;
+    }
+
+}
