@@ -90,12 +90,6 @@
         float: left;
     }
 
-    .clearfix::after {
-        content: "";
-        display: table;
-        clear: both;
-    }
-
     .btn {
         padding: 10px 40px;
     }
